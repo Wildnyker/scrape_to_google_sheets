@@ -3,7 +3,7 @@ from scrapy.selector import Selector
 from selenium import webdriver
 import time
 from ..items import ThreeiqItem
-import gspread
+#the code that actually pushes scraped data to Google Sheets lies in pipelines.py
 
 
 class IqSpider(scrapy.Spider):
